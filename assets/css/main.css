@@ -2698,6 +2698,13 @@
 			opacity: 0.25;
 		}
 
+.break {
+  background-color: black;
+  background-attachment: fixed,							fixed;
+  background-image: url("../../images/header.jpg");
+  background-size: auto,							cover;
+  padding: 20vh;
+}
 /* Main */
 
 	.main {
@@ -2706,37 +2713,13 @@
 
 		.main.style1 {
 			background: #fff;
-
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("../../images/header.jpg");
-			background-size: auto,							cover;
+      background: #fff;
+
 		}
 
-			.main.style2 a {
-				border-bottom-color: rgba(255, 255, 255, 0.5);
-			}
-
-				.main.style2 a:hover {
-					color: #ffffff;
-				}
-
-			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #ffffff;
-			}
-
-			.main.style2 p {
-				color: #ffffff;
-        font-size: 30px;
-			}
-
-			.main.style2 header.major:after {
-				background: #ffffff;
-			}
 
 			.main.style2 input[type="submit"],
 			.main.style2 input[type="reset"],
